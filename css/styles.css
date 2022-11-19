@@ -60,8 +60,8 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-color: #121a76;
+  --bs-body-bg: #FAF9F6;
 }
 
 *,
@@ -111,6 +111,10 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 .blue{color:#2fae09}
+
+.navy{color:#0B0B45}
+
+.navy2{color:#29487d}
 
 h1, .h1 {
   font-size: calc(1.725rem + 5.7vw);
@@ -241,7 +245,7 @@ sup {
 }
 
 a {
-  color: #3f0de0;
+  color: #2D3483;
   text-decoration: none;
 }
 a:hover {
