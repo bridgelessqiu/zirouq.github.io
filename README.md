@@ -1,3 +1,3 @@
 # zirouqiu.github.io
 
-My personal website: zirouq.me
+My homepage: [zirouq.me]
