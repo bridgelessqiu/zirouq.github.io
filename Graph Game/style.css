@@ -1,0 +1,62 @@
+/* body, html {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+} */
+
+
+body, html {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+}
+
+svg {
+  background: #f0f2f5; /* Soft background */
+  width: 100%;
+  height: 100vh;
+}
+
+.node {
+  fill: #69b3a2; /* Modern node color */
+  stroke: #FAF9F6;
+  stroke-width: 2px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+
+}
+
+.node:hover {
+  fill: #4178be; /* Change color instead of scaling */
+}
+
+.link {
+  /* stroke: #4178be; */
+  stroke-opacity: 0.9;
+  cursor: pointer;
+  transition: stroke-width 0.2s ease;
+}
+
+.link:hover {
+  stroke:darkblue;
+  stroke-width: 7px; /* Thicker line on hover */
+}
+
+.edge-weight {
+  fill: #555;
+  font-size: 20px;
+  pointer-events: none; /* Prevent interaction with labels */
+}
+
+/* Optional: Add custom font from Google Fonts or elsewhere */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+}
