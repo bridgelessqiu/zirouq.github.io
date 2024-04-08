@@ -2280,6 +2280,12 @@ progress {
   border-radius: 0;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #000000c6 !important;
+    color:whitesmoke;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .form-control::-webkit-file-upload-button {
     -webkit-transition: none;
@@ -4523,7 +4529,7 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #f5f0f0;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -11327,7 +11333,7 @@ h1, .h1 {
 }
 
 p.lead {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 450;
   color:rgba(0, 0, 0, 0.9)
 }
