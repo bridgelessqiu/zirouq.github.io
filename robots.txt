@@ -1,0 +1,15 @@
+User-agent: Googlebot
+Disallow: /assets/
+
+User-agent: Googlebot-Image
+Disallow: /assets/
+
+User-agent: Googlebot-Mobile
+Disallow: /assets/
+
+User-agent: Google-Site-Verification
+Disallow: /assets/
+
+
+User-agent: *
+Disallow: /assets/
