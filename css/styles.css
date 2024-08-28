@@ -164,7 +164,7 @@ p {
   margin-top: 0;
   font-size: 1.3rem;
   color: rgba(0, 0, 0, 0.9);
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
 
 abbr[title],
@@ -11418,7 +11418,7 @@ p.lead {
 }
 
 section.resume-section {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -11439,7 +11439,7 @@ section.resume-section .resume-section-content {
   section.resume-section {
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
